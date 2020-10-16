@@ -1,0 +1,55 @@
+Introducción a C++
+
+2.- ¿Qué es programar y por qué aprender C++?
+Programar es el proceso de crear algoritmos, sistemas y programas usando lenguajes de programación para comunicarnos con las computadoras.
+
+C++ es un lenguaje veloz porque puede hacer un muy buen manejo de la memoria sin máquinas virtuales ni recolectores de basura (a diferencia de otros lenguajes de programación como Java o C#). Además, C++ es un lenguaje complejo, tiene una gran cantidad de librerías e implementaciones y es constantemente actualizado.
+
+C++ es usado por aplicaciones que requieren una optimización de recursos y un manejo de memoria como prioridad sin dejar de ser escalable, modular y distribuido en varias plataformas. Muchos motores de Videojuegos como Unreal Engine, Creation Engine, CryEngine, Source o incluso Unity 3D utilizan C++.
+
+
+3.- La Historia de C++ y sus diferencias con C
+Bjarne Stroustrup es un científico de sistemas que creo C++ transformando el lenguaje C con programación orientada a objetos. C++ es igual que C pero con soporte para clases y objetos (POO).
+
+Los compiladores son traductores que convierten nuestros programas escritos con lenguajes de programación a código que pueden entender las máquinas. Cfront fue uno de los primeros compiladores de C++ pero nosotros vamos a usar GCC (GNU Compiler Collection) porque es público, gratuito y open source.
+
+Por otra parte, los IDEs (Entornos de Desarrollo Integrados) son programas que nos ayudan a escribir nuestro código para desarrollar más fácilmente. Nosotros vamos a usar Code::Blocks.
+
+4.- Instalando Codeblocks
+Debemos seguir los siguientes pasos para instalar CodeBlocks:
+
+Entra a la siguiente URL: http://www.codeblocks.org
+Busca la sección de ““Downloads””
+Puedes descargar la herramienta de forma binaria, con el código fuente o con SVN. Nosotros vamos a usar la opción binaria eligiendo el sistema operativo que tenemos instalado.
+Recuerda descargar la versión que incluye la instalación del compilador de C++ (la que termina con mingw-setup.exe).
+
+7.- ¿Qué son las librerías STD? - Portada del Proyecto
+Las librerías son pedazos de código que alguien más escribió y lo compartió con nosotros para que también podamos usarlo y proponer mejoras. Algunas librerías incluso pueden volverse estándares y venir instaladas por defecto con el lenguaje.
+
+Por ejemplo, en nuestro primer ejemplo estamos usando la librería iostream que nos ayuda a imprimir texto en la consola.
+
+8.- ¿Qué es la memoria y tipos de datos?
+Las computadoras pueden guardar todo tipo de información pero solo entienden el código binario (ceros y unos). Lo que pasa es que gracias a los tipos de datos podemos clasificar la información para que los compiladores sepan cómo deben escribir o interpretar estos códigos de forma que los podamos entender en forma de números (no solo 1 y 0), imágenes, textos, documentos y muchas otras cosas.
+
+La memoria de las computadoras, la forma de almacenar información, funciona muy parecido a la memoria de los seres humanos. El proceso consiste en codificar (recibir e interpretar datos, por ejemplo, cuando vemos algo), almacenar (los humanos en el cerebro y las computadoras en el disco duro o la memoria RAM) y recuperar (cuando recordamos el vídeo que vimos y tomamos decisiones a partir de esta información).
+
+El Disco Duro es un lugar donde podemos almacenar nuestros datos a una velocidad media pero de forma que perduran; en cualquier momento podemos volver para leer o sobrescribir los datos.
+
+Por otra parte, la memoria RAM también nos ayuda a guardar información a una velocidad casi inmejorable pero solo por un tiempo; si la máquina pierde poder, nosotros también perdemos la información para siempre.
+
+Tipos de datos
+INT (Enteros)
+Floats (decimales)
+Bool (booleanos: true o false, verdadero o falso, encendido o apagado, negativo o positivo)
+Chars (caracteres)
+Entre otros.
+
+
+9.- Alojando variables en memoria
+Las variables son espacios reservados en memoria, definidos por un nombre y un tipo de dato, en los cuales podemos guardar un valor que también podemos modificar.
+
+Por ejemplo:
+
+int Month = 12
+Donde int es el tipo de dato, Month el nombre de la variable y 12 el valor.
+
