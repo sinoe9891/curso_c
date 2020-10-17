@@ -32,8 +32,5 @@ int main(int argc, char** argv) {
 	cout<< "Sumados darian: " << endl;
 	cout<< numDecimaluno + numDecimaldos << endl;
 	
-		
-	
-	
 	return 0;
 }

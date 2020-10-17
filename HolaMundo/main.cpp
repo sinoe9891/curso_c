@@ -87,7 +87,7 @@ int main()
 	
 	cout << apuntadorDireccion << endl;
 	
-	cout << direccion << endl;  
+	cout << direccion << endl;
 	
 	
     return 0;
