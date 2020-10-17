@@ -53,3 +53,22 @@ Por ejemplo:
 int Month = 12
 Donde int es el tipo de dato, Month el nombre de la variable y 12 el valor.
 
+10.- ¿Cómo usar operadores?
+Los operadores son símbolos que nos ayudan a manipular nuestros datos con operaciones lógicas (por ejemplo, operaciones aritméticas).
+
+Operadores aritméticos:
+
+Suma (+)
+Resta (-)
+Multiplicación (*)
+División (/)
+Módulo (%: el residuo de una división, por ejemplo, 100 % 2 = 0 o 13 % 5 = 3)
+Aisgnación (=: por ejemplo, Nombre = valor)
+
+
+11.- ¿Qué son los apuntadores?
+
+Los apuntadores son como cualquier otra variable pero, en vez de guardar texto, números o cualquier otro tipo de dato, pueden acceder a la dirección en memoria del resto de nuestras variables. Esto significa que podemos modificar la posición donde se guardan nuestras variables y también que tenemos mucho más control sobre ellas.
+Operadores:
+* Operador de Apuntador
+& Ampersand
