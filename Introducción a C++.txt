@@ -72,3 +72,4 @@ Los apuntadores son como cualquier otra variable pero, en vez de guardar texto, 
 Operadores:
 * Operador de Apuntador
 & Ampersand
+
