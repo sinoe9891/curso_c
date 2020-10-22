@@ -1,6 +1,6 @@
 [Project]
-FileName=Laboratorio1.dev
-Name=Laboratorio1
+FileName=programa2.dev
+Name=programa2
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=main.cpp
+FileName=programa2.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=..\..\Semana 2\miercoles\ciclosBucles.cpp
+FileName=..\..\..\..\inputs.cpp
 CompileCpp=1
 Folder=
 Compile=1

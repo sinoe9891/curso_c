@@ -73,3 +73,38 @@ Operadores:
 * Operador de Apuntador
 & Ampersand
 
+13.- ¿Cómo introducir datos a nuestro programa?
+
+Las entradas de datos son la interacción de los usuarios o jugadores con nuestro programa. Por ejemplo, cuando presionamos los botones de un control o cuando escribimos texto para buscar una página web.
+
+Vamos usar la librería iostream, la misma que usamos para imprimir texto en la consola, pero esta vez para que los usuarios también puedan escribir en nuestro programa.
+
+Comandos para usar iostream:
+
+Cout: Comando de flujo de salida de datos (generalmente en la consola).
+Cin: Comando de flujo de entrada de datos, el programa debe esperar a que el usuario introduzca los datos para continuar con su ejecución.
+Por ejemplo:
+
+14.- ¿Cómo usar condicionales?
+Los condicionales son estructuras de control que nos permiten manipular el flujo de nuestro programa dependiendo de ciertas condiciones establecidas por el programador.
+
+Dicho de otra forma, los condicionales nos ayudan a identificar si una operación o condición de nuestro programa es correcta o falsa y dependiendo de este resultado podemos tomar decisiones: ejecutar una parte del código u otra, volver a comenzar, terminar la ejecución o todo lo que necesitemos.
+
+Operadores condicionales:
+
+Menor que (<, por ejemplo, 1 < 10 es verdadero)
+Mayor que (>, por ejemplo, 1 > 10 es falso)
+Igual que (==, por ejemplo, 100 == 100 es verdadero, recuerda no confundirlo con el operador de asignación, =)
+Menor o igual que (<=, por ejemplo, 10 <= 10 es verdadero)
+Mayor o igual que (>=, por ejemplo, 10 >= 10 es verdadero)
+Diferente que (!=, por ejemplo, 10 != 10 es falso)
+Tipos de condicionales:
+
+IF: Nos permite ejecutar un bloque de código siempre y cuando el resultado de sus condiciones sea verdadero.
+ELSE: Nos permite ejecutar un bloque de código siempre y cuando las condiciones del condicional if NO se cumplan.
+SWTCH: Nos permite programar varios casos dependiendo de los posibles valores de una misma variable para ejecutar diferentes bloques de código dependiendo del caso o condición que se cumpla.
+
+
+
+
+Buenas noches compañeros ﻿﻿﻿no coincido con que que Alibaba, Ellos actualmente﻿﻿ utiliza el modelo de negocios B2B son generadores de mercados, pues su sitio sirve para reunir a miles de proveedores, para que estos puedan ofrecer sus productos, generando ingresos mediante comisión por cada transacción, asi también por el cobro de suscripción a los vendedores que ofrecen sus productos a través de su sitio
