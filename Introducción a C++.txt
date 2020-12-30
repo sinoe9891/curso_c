@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Introducción a C++
 
 2.- ¿Qué es programar y por qué aprender C++?
@@ -108,3 +109,115 @@ SWTCH: Nos permite programar varios casos dependiendo de los posibles valores de
 32.- Encapsulación
 
 La encapsulación es el proceso de combinar datos y métodos en una misma clase para evitar que sean modificados directamente por factores externos, debemos restringir la modificación de algunas propiedades sin dejar la posibilidad de acceder a todos nuestros datos (debemos permitir la lectura pero no la modificación).
+=======
+Introducción a C++
+
+2.- ¿Qué es programar y por qué aprender C++?
+Programar es el proceso de crear algoritmos, sistemas y programas usando lenguajes de programación para comunicarnos con las computadoras.
+
+C++ es un lenguaje veloz porque puede hacer un muy buen manejo de la memoria sin máquinas virtuales ni recolectores de basura (a diferencia de otros lenguajes de programación como Java o C#). Además, C++ es un lenguaje complejo, tiene una gran cantidad de librerías e implementaciones y es constantemente actualizado.
+
+C++ es usado por aplicaciones que requieren una optimización de recursos y un manejo de memoria como prioridad sin dejar de ser escalable, modular y distribuido en varias plataformas. Muchos motores de Videojuegos como Unreal Engine, Creation Engine, CryEngine, Source o incluso Unity 3D utilizan C++.
+
+
+3.- La Historia de C++ y sus diferencias con C
+Bjarne Stroustrup es un científico de sistemas que creo C++ transformando el lenguaje C con programación orientada a objetos. C++ es igual que C pero con soporte para clases y objetos (POO).
+
+Los compiladores son traductores que convierten nuestros programas escritos con lenguajes de programación a código que pueden entender las máquinas. Cfront fue uno de los primeros compiladores de C++ pero nosotros vamos a usar GCC (GNU Compiler Collection) porque es público, gratuito y open source.
+
+Por otra parte, los IDEs (Entornos de Desarrollo Integrados) son programas que nos ayudan a escribir nuestro código para desarrollar más fácilmente. Nosotros vamos a usar Code::Blocks.
+
+4.- Instalando Codeblocks
+Debemos seguir los siguientes pasos para instalar CodeBlocks:
+
+Entra a la siguiente URL: http://www.codeblocks.org
+Busca la sección de ““Downloads””
+Puedes descargar la herramienta de forma binaria, con el código fuente o con SVN. Nosotros vamos a usar la opción binaria eligiendo el sistema operativo que tenemos instalado.
+Recuerda descargar la versión que incluye la instalación del compilador de C++ (la que termina con mingw-setup.exe).
+
+7.- ¿Qué son las librerías STD? - Portada del Proyecto
+Las librerías son pedazos de código que alguien más escribió y lo compartió con nosotros para que también podamos usarlo y proponer mejoras. Algunas librerías incluso pueden volverse estándares y venir instaladas por defecto con el lenguaje.
+
+Por ejemplo, en nuestro primer ejemplo estamos usando la librería iostream que nos ayuda a imprimir texto en la consola.
+
+8.- ¿Qué es la memoria y tipos de datos?
+Las computadoras pueden guardar todo tipo de información pero solo entienden el código binario (ceros y unos). Lo que pasa es que gracias a los tipos de datos podemos clasificar la información para que los compiladores sepan cómo deben escribir o interpretar estos códigos de forma que los podamos entender en forma de números (no solo 1 y 0), imágenes, textos, documentos y muchas otras cosas.
+
+La memoria de las computadoras, la forma de almacenar información, funciona muy parecido a la memoria de los seres humanos. El proceso consiste en codificar (recibir e interpretar datos, por ejemplo, cuando vemos algo), almacenar (los humanos en el cerebro y las computadoras en el disco duro o la memoria RAM) y recuperar (cuando recordamos el vídeo que vimos y tomamos decisiones a partir de esta información).
+
+El Disco Duro es un lugar donde podemos almacenar nuestros datos a una velocidad media pero de forma que perduran; en cualquier momento podemos volver para leer o sobrescribir los datos.
+
+Por otra parte, la memoria RAM también nos ayuda a guardar información a una velocidad casi inmejorable pero solo por un tiempo; si la máquina pierde poder, nosotros también perdemos la información para siempre.
+
+Tipos de datos
+INT (Enteros)
+Floats (decimales)
+Bool (booleanos: true o false, verdadero o falso, encendido o apagado, negativo o positivo)
+Chars (caracteres)
+Entre otros.
+
+
+9.- Alojando variables en memoria
+Las variables son espacios reservados en memoria, definidos por un nombre y un tipo de dato, en los cuales podemos guardar un valor que también podemos modificar.
+
+Por ejemplo:
+
+int Month = 12
+Donde int es el tipo de dato, Month el nombre de la variable y 12 el valor.
+
+10.- ¿Cómo usar operadores?
+Los operadores son símbolos que nos ayudan a manipular nuestros datos con operaciones lógicas (por ejemplo, operaciones aritméticas).
+
+Operadores aritméticos:
+
+Suma (+)
+Resta (-)
+Multiplicación (*)
+División (/)
+Módulo (%: el residuo de una división, por ejemplo, 100 % 2 = 0 o 13 % 5 = 3)
+Aisgnación (=: por ejemplo, Nombre = valor)
+
+
+11.- ¿Qué son los apuntadores?
+
+Los apuntadores son como cualquier otra variable pero, en vez de guardar texto, números o cualquier otro tipo de dato, pueden acceder a la dirección en memoria del resto de nuestras variables. Esto significa que podemos modificar la posición donde se guardan nuestras variables y también que tenemos mucho más control sobre ellas.
+Operadores:
+* Operador de Apuntador
+& Ampersand
+
+13.- ¿Cómo introducir datos a nuestro programa?
+
+Las entradas de datos son la interacción de los usuarios o jugadores con nuestro programa. Por ejemplo, cuando presionamos los botones de un control o cuando escribimos texto para buscar una página web.
+
+Vamos usar la librería iostream, la misma que usamos para imprimir texto en la consola, pero esta vez para que los usuarios también puedan escribir en nuestro programa.
+
+Comandos para usar iostream:
+
+Cout: Comando de flujo de salida de datos (generalmente en la consola).
+Cin: Comando de flujo de entrada de datos, el programa debe esperar a que el usuario introduzca los datos para continuar con su ejecución.
+Por ejemplo:
+
+14.- ¿Cómo usar condicionales?
+Los condicionales son estructuras de control que nos permiten manipular el flujo de nuestro programa dependiendo de ciertas condiciones establecidas por el programador.
+
+Dicho de otra forma, los condicionales nos ayudan a identificar si una operación o condición de nuestro programa es correcta o falsa y dependiendo de este resultado podemos tomar decisiones: ejecutar una parte del código u otra, volver a comenzar, terminar la ejecución o todo lo que necesitemos.
+
+Operadores condicionales:
+
+Menor que (<, por ejemplo, 1 < 10 es verdadero)
+Mayor que (>, por ejemplo, 1 > 10 es falso)
+Igual que (==, por ejemplo, 100 == 100 es verdadero, recuerda no confundirlo con el operador de asignación, =)
+Menor o igual que (<=, por ejemplo, 10 <= 10 es verdadero)
+Mayor o igual que (>=, por ejemplo, 10 >= 10 es verdadero)
+Diferente que (!=, por ejemplo, 10 != 10 es falso)
+Tipos de condicionales:
+
+IF: Nos permite ejecutar un bloque de código siempre y cuando el resultado de sus condiciones sea verdadero.
+ELSE: Nos permite ejecutar un bloque de código siempre y cuando las condiciones del condicional if NO se cumplan.
+SWTCH: Nos permite programar varios casos dependiendo de los posibles valores de una misma variable para ejecutar diferentes bloques de código dependiendo del caso o condición que se cumpla.
+
+
+32.- Encapsulación
+
+La encapsulación es el proceso de combinar datos y métodos en una misma clase para evitar que sean modificados directamente por factores externos, debemos restringir la modificación de algunas propiedades sin dejar la posibilidad de acceder a todos nuestros datos (debemos permitir la lectura pero no la modificación).
+>>>>>>> f7d1d80b389b978d79bf3dd0e8f03121db450367
